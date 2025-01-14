@@ -1,0 +1,23 @@
+{
+  "name": "alura",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> <img src=\"https://github.com/josevflores911/JavaScript/blob/main/img/encabezado/screenshoot_d.PNG\" alt=\"Javascript: creando requisiciones\"> </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch  ./db.jason --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josevflores911/JavaScript.git"
+  },
+  "author": "J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josevflores911/JavaScript/issues"
+  },
+  "homepage": "https://github.com/josevflores911/JavaScript#readme",
+  "dependencies": {
+    "jason-server": "^3.0.0",
+    "json-server": "^0.17.4"
+  }
+}

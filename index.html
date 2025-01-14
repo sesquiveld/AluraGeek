@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Alura Geek</title>
+    <link rel="shortcut icon" href="./img/corazon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="encabezado">
+            <a class="logo" href="./index.html"></a>
+            <div class="encabezado__buscar">
+                
+                <input type="search" placeholder="Buscar" id="buscar" class="buscar__input" data-busqueda>
+                <button class="buscar__boton" data-boton-busqueda></button>
+            </div>
+            
+        </nav>
+    </header>
+    <main class="main-container">
+        <section>
+            <h1 class="press-start-2p-regular">Mis Productos</h1>
+            <div data-products class="main-container__producto"></div>    
+        </section>
+        <section>
+            <h1 class="press-start-2p-regular">Agregar Producto</h1>
+            <form class="main-container__form" data-formulario>
+                <input placeholder="Nombre" class="campo__escrito" type="text" data-nombre required>
+                <input placeholder="precio" class="campo__escrito" type="text" data-precio required>
+                <input placeholder="Imagen" class="campo__escrito" id='url' type="url" data-imagen required>
+                <span data-message class="mensajeError"></span>
+                <div class="button-container">
+                    <button type="submit" class="Button-submit" id="button">Enviar</button>
+                    <button type="reset" class="Button-reset" id="button">Limpiar</button>
+
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer-container">
+        <div>
+            <p>Desarrollado por S.EsquivelD . Alura Latam 2024 - Oracle G7</p>
+        </div>
+        <div class="footer__corazones">
+            <img  class ="footer__corazones" src="./img/corazon.png" alt="Corazones" type="image/x-icon">
+        </div>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/buscarProducto.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+</body>
+
+</html>

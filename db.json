@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Tropper Clon",
+      "precio": "99,99",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_744330-MCO76944445577_062024-O.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "¡Luke Skywalker!",
+      "precio": "39,54",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_694633-MCO52627391508_112022-F.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Luke",
+      "precio": "68,89",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_717856-CBT79145527747_092024-F.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Baby Yoda",
+      "precio": "10,11",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_944356-MCO51424089872_092022-F.webp"
+    },
+    {
+      "nombre": "holA",
+      "precio": "78.89",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_790692-CBT78791851756_092024-O.webp",
+      "id": 7
+    },
+    {
+      "nombre": "Tropper Clon",
+      "precio": "63.02",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_744330-MCO76944445577_062024-F.webp",
+      "id": 9
+    },
+    {
+      "nombre": "Funkopop Star Wars",
+      "precio": "50.85",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_909395-MCO49323048777_032022-O.webp",
+      "id": 11
+    },
+    {
+      "nombre": "Jango Fett",
+      "precio": "131.39",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_699585-MCO77329156051_062024-O.webp",
+      "id": 13
+    },
+    {
+      "nombre": "Yoda",
+      "precio": "42.39",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_771773-MLA48532457533_122021-F.webp",
+      "id": 14
+    },
+    {
+      "nombre": "Bb-8",
+      "precio": "63.02",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_658939-MCO50951015546_082022-O.webp",
+      "id": 15
+    },
+    {
+      "nombre": "R2 D2",
+      "precio": "30.64",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_621145-MCO54077411658_022023-O.webp",
+      "id": 16
+    }
+  ]
+}
